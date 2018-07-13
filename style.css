@@ -1,0 +1,64 @@
+body {
+  font-family: Futura;
+  margin: 0;
+}
+
+h1 {
+  font-size: 50px;
+  color: blue;
+  text-align: center;
+  justify-content: center;
+}
+
+.ctabar {
+  height: 45px;
+  width: 100%;
+  background: rgb(4, 142, 202);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+  font-size: 14px;
+  align-items: center;
+}
+
+#phone, #rdv {
+  padding: 20px;
+}
+
+.navbar {
+  height: 90px;
+  width: 100%;
+  background: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: rgb(4, 142, 202);
+  font-size: 22px;
+  align-items: center;
+}
+
+.banner {
+  height: calc(100vh - 135px);
+  position: relative;
+  background-image: url("http://www.pone.ch/wp-content/uploads/2016/11/IMG_5932.jpg"); background-size: cover; background-position: center center;
+}
+
+#location-banner {
+  height: 50px;
+  width: 400px;
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+  background: white;
+  border-radius: 5px;
+  opacity: 0.85;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 4px 4px 4px 0px rgba(0,0,0,0.35);
+  color:#26373E;
+}
+
+#location-banner p {
+  margin: 0;
+}
