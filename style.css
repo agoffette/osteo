@@ -18,7 +18,7 @@ p {
   font-size: 14px;
   align-items: center;
   position: fixed;
-  opacity: 0.95;
+  opacity: 0.97;
   top: 0;
   z-index: 1000;
 }
@@ -28,7 +28,7 @@ p {
   width: 450px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: right;
 }
 
 #booking p {
@@ -131,10 +131,116 @@ p {
 #apropos-text {
   text-align: left;
   justify-content: center;
+  padding: 15px 30px;
 }
 
 .specialites {
   height: 100px;
   background: #00B3FF;
   color: white;
+  padding: 20px;
+}
+
+#row-specialites {
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+#liste-specialites {
+  font-size: 16px;
+  text-align: center;
+}
+
+#pourquoi-consulter p {
+  border-radius: 50px;
+  background: #26373E;
+  color: white;
+  width: 210px;
+  text-align: center;
+  padding: 8px 18px;
+  box-shadow: 4px 4px 4px 0px rgba(0,0,0,0.35);
+}
+
+#pourquoi-consulter p:hover {
+  background: white;
+  color: #26373E;
+}
+
+.infos-home {
+  background: #26373E;
+  color: white;
+  padding: 70px;
+  padding-bottom: 0px;
+  font-size: 16px;
+}
+
+#contact-icon {
+  font-size: 40px;
+}
+
+#telephone p, #rdv-ligne p {
+  width: 280px;
+}
+
+#telephone, #rdv-ligne, #horaires {
+  padding-left: 20px;
+  padding-bottom: 70px;
+}
+
+#telephone a {
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 14px;
+  color: #1ECF63;
+  background: white;
+  padding: 8px 20px;
+  box-shadow: 4px 4px 4px 0px rgba(0,0,0,0.35);
+}
+
+#telephone a:hover {
+  background: #1ECF63;
+  color: white;
+}
+
+#rdv-ligne a {
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 14px;
+  color: white;
+  background: #00B3FF;
+  padding: 8px 20px;
+  box-shadow: 4px 4px 4px 0px rgba(0,0,0,0.35);
+}
+
+#rdv-ligne a:hover {
+  background: white;
+  color: #00B3FF;
+}
+
+.footer-LG {
+  background: white;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  font-size: 12px;
+  color: #B1A9A9;
+}
+
+.footer-icons {
+  font-size: 22px;
+  width: 70px;
+  margin-left: 20px;
+}
+
+.footer-icons a {
+  text-decoration: none;
+  color: #B1A9A9;
+}
+
+.footer-icons i:hover {
+  color: #00B3FF;
 }
