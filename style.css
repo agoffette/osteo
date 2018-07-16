@@ -150,6 +150,7 @@ p {
 #liste-specialites {
   font-size: 16px;
   text-align: center;
+  padding-top: 15px;
 }
 
 #pourquoi-consulter {
@@ -173,10 +174,14 @@ p {
   color: #26373E;
 }
 
+#container-infos {
+  margin: auto !important;
+}
+
 .infos-home {
   background: #26373E;
   color: white;
-  padding: 70px;
+  padding-top: 60px;
   padding-bottom: 0px;
   font-size: 16px;
 }
@@ -190,7 +195,7 @@ p {
 }
 
 #telephone, #rdv-ligne, #horaires {
-  padding-left: 20px;
+  padding-left: 60px;
   padding-bottom: 70px;
 }
 
