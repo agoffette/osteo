@@ -12,18 +12,31 @@
 
   <body>
     <div class="ctabar">
-      <div id="menu">
-        <i class="fas fa-bars"></i>
+      <div class="cta-flexrow">
+      <div id="menu-button">
+        <p>
+          <button id="menu" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+            <i class="fas fa-bars"></i>
+          </button>
+        </p>
       </div>
       <div id="booking">
-        <p class="hidden-xs"><i class="far fa-calendar-alt"></i> Prendre rendez-vous en ligne</p>
+        <p class="hidden-xs"><i class="far fa-calendar-alt"></i> Prendre rendez-vous</p>
         <a href="tel:0033679810986" target="_blank"><p><i class="fas fa-phone"></i> 06 79 81 09 86</p></a>
+      </div>
+      </div>
+      <div class="collapse menu-content" id="collapseExample">
+        <div class="card card-body" id="menu-links">
+          <a href="home.html"><b>ACCUEIL</b></a><br>
+          <a href="cabinet.html"><b>LE CABINET</b></a><br>
+          <a href="osteopathie.html"><b>L'OSTEOPATHIE</b></a>
+        </div>
       </div>
     </div>
 
     <div class="osteopathie-banner">
       <h2><b>L'OSTEOPATHIE</b></h2>
-      <p>Je suis Ostéopathe D.O. exclusif, diplômé de l’Institut Supérieur d’Ostéopathie de Lille, école agrée par le ministère de la santé, de la jeunesse et des sports, dans laquelle j'ai suivi un parcours de 6 années. Ma formation m'a permis de me former à différents types de techniques telles que l'ostéopathie structurelle, fonctionnelle, tissulaire, myo-fasciale, viscérale, et crânienne, ainsi que de prendre en charge tout type de patient (adulte, sénior, sportif, nourrisson, femme enceinte) durant 4 ans au sein d'une clinique ostéopathique.</p>
+      <p>Le principe thérapeutique de l’ostéopathie repose sur la recherche et la correction des pertes de mobilités du corps en vue de prévenir ou de traiter des troubles fonctionnels. L’ostéopathie considère le patient dans sa globalité et s’attache à diagnostiquer et traiter la cause du trouble du patient et non à soulager les symptômes qui en sont la conséquence.</p>
     </div>
 
     <div class="h2-title">
@@ -33,51 +46,86 @@
     <div class="card-typo">
       <div class="container">
         <div class="row row-typo">
-          <div class="col-xs-12 col-md-7" id="adulte-photo">
+          <div class="hidden-xs col-xs-12 col-md-7" id="adulte-photo">
           </div>
           <div class="description-right col-xs-12 col-md-5">
-            <h3><b>ADULTE</b></h3>
-            <p>Je suis Ostéopathe D.O. exclusif, diplômé de l’Institut Supérieur d’Ostéopathie de Lille, école agrée par le ministère de la santé, de la jeunesse et des sports, dans laquelle j'ai suivi un parcours de 6 années. Ma formation m'a permis de me former à différents types de techniques telles que l'ostéopathie structurelle, fonctionnelle, tissulaire.</p>
+            <h3><b>ADULTE</b></h3><br>
+            <ul>
+              <li><b>Troubles musculo-squelettiques :</b> entorses, tendinites, douleurs articulaires, musculaires, pubalgies, lombalgies, lumbagos, cervicalgies, dorsalgies, costalgies, douleurs suite à un traumatisme (accident, chute)</li>
+              <li><b>Troubles neurologiques :</b> sciatiques, cruralgies, névralgies intercostales, névralgies cervico-brachiales, névralgies faciales, névralgies d’Arnold</li>
+              <li><b>Troubles digestifs :</b> reflux gastro-oesophagien, ballonnements, troubles de la digestion, diarrhées, constipations, troubles hépato-biliaires.</li>
+              <li><b>Stress</b>, état dépressif, angoisse, anxiété, irritabilité, troubles du sommeil</li>
+              <li><b>Troubles ORL chroniques :</b> rhinites, sinusites, bronchites, vertiges, maux de têtes et migraines, acouphènes, troubles de la déglutition</li>
+              <li><b>Troubles gynéco-urinaires :</b> suivi de grossesse, post-partum, troubles de la ménopause, irrégularité des cycles menstruels, douleurs, énurésie, incontinence, dyspareunie</li>
+              <li><b>Bilan préventif</b></li>
+            </ul>
           </div>
         </div>
         <div class="row row-typo">
           <div class="description-left col-xs-12 col-md-5">
-            <h3><b>ENFANT</b></h3>
-            <p>Je suis Ostéopathe D.O. exclusif, diplômé de l’Institut Supérieur d’Ostéopathie de Lille, école agrée par le ministère de la santé, de la jeunesse et des sports, dans laquelle j'ai suivi un parcours de 6 années. Ma formation m'a permis de me former à différents types de techniques telles que l'ostéopathie structurelle, fonctionnelle, tissulaire.</p>
+            <h3><b>ENFANT</b></h3><br>
+           <ul>
+              <li><b>Douleurs de dos:</b> scoliose ou attitude scoliotique, lordose, cyphose.</li>
+              <li><b>Troubles ORL chroniques:</b> sinusites, rhinites, bronchites, asthme, port appareil dentaire.</li>
+              <li><b>Troubles digestifs:</b> douleurs abdominales, diarrhées, constipations, troubles de la digestion.</li>
+              <li><b>Difficulté de concentration:</b> hyper/hypoactivité, troubles de l’humeur, troubles du sommeil.</li>
+              <li><b>Bilan préventif</b></li>
+            </ul>
           </div>
-          <div class="hidden-xs col-xs-12 col-md-7" id="adulte-photo">
+          <div class="hidden-xs col-xs-12 col-md-7" id="enfant-photo">
           </div>
         </div>
         <div class="row row-typo">
-          <div class="hidden-xs col-xs-12 col-md-7" id="adulte-photo">
+          <div class="hidden-xs col-xs-12 col-md-7" id="nourisson-photo">
           </div>
           <div class="description-right col-xs-12 col-md-5">
-            <h3><b>NOURISSON</b></h3>
-            <p>Je suis Ostéopathe D.O. exclusif, diplômé de l’Institut Supérieur d’Ostéopathie de Lille, école agrée par le ministère de la santé, de la jeunesse et des sports, dans laquelle j'ai suivi un parcours de 6 années. Ma formation m'a permis de me former à différents types de techniques telles que l'ostéopathie structurelle, fonctionnelle, tissulaire.</p>
+            <h3><b>NOURISSON</b></h3><br>
+            <ul>
+              <li><b>Naissance laborieuse :</b> utilisation d’instruments, présentation en siège.</li>
+              <li><b>Troubles digestifs :</b> Coliques, diarrhées, constipations, reflux gastro-oesophagien, régurgitations, vomissements.</li>
+              <li><b>Cris ou pleurs</b> fréquents, troubles du sommeil, hyper/hypoactivité</li>
+              <li><b>Troubles de la succion,</b> troubles ORL chroniques (otites, laryngites, rhinites, bronchites).</li>
+              <li><b>Torticolis congénital :</b> l’enfant ne tourne la tête que d’un côté, plagiocéphalie, déformation du crâne.</li>
+            </ul>
           </div>
         </div>
         <div class="row row-typo">
           <div class="description-left col-xs-12 col-md-5">
-            <h3><b>FEMME ENCEINTE</b></h3>
-            <p>Je suis Ostéopathe D.O. exclusif, diplômé de l’Institut Supérieur d’Ostéopathie de Lille, école agrée par le ministère de la santé, de la jeunesse et des sports, dans laquelle j'ai suivi un parcours de 6 années. Ma formation m'a permis de me former à différents types de techniques telles que l'ostéopathie structurelle, fonctionnelle, tissulaire.</p>
+            <h3><b>FEMME ENCEINTE</b></h3><br>
+            <ul>
+              <li><b>Douleurs de dos:</b> sciatique, cruralgie.</li>
+              <li><b>Troubles digestifs :</b> nausées, vomissements, reflux, ballonnements, diarrhées, constipations.</li>
+              <li><b>Troubles circulatoires</b>: oedèmes, sensation de jambes lourdes.</li>
+              <li><b>Insomnie</b>, angoisse, fatigue et stress.</li>
+              <li><b>Préparation de l’accouchement.</b></li>
+            </ul>
           </div>
-          <div class="hidden-xs col-xs-12 col-md-7" id="adulte-photo">
+          <div class="hidden-xs col-xs-12 col-md-7" id="enceinte-photo">
           </div>
         </div>
         <div class="row row-typo">
-          <div class="hidden-xs col-xs-12 col-md-7" id="adulte-photo">
+          <div class="hidden-xs col-xs-12 col-md-7" id="sportif-photo">
           </div>
           <div class="description-right col-xs-12 col-md-5">
-            <h3><b>SPORTIF</b></h3>
-            <p>Je suis Ostéopathe D.O. exclusif, diplômé de l’Institut Supérieur d’Ostéopathie de Lille, école agrée par le ministère de la santé, de la jeunesse et des sports, dans laquelle j'ai suivi un parcours de 6 années. Ma formation m'a permis de me former à différents types de techniques telles que l'ostéopathie structurelle, fonctionnelle, tissulaire.</p>
+            <h3><b>SPORTIF</b></h3><br>
+            <ul>
+              <li><b>Douleurs articulaires et musculaires.</b></li>
+              <li><b>Tendinites, entorses, fractures, déchirures et contractures musculaires, pubalgie.</b></li>
+              <li><b>Suite d’intervention chirurgicale et rééducation.</b></li>
+              <li><b>Bilan préventif</b> avant une épreuve ou pour améliorer ses performances.</li>
+            </ul>
           </div>
         </div>
         <div class="row row-typo">
           <div class="description-left col-xs-12 col-md-5">
-            <h3><b>SENIOR</b></h3>
-            <p>Je suis Ostéopathe D.O. exclusif, diplômé de l’Institut Supérieur d’Ostéopathie de Lille, école agrée par le ministère de la santé, de la jeunesse et des sports, dans laquelle j'ai suivi un parcours de 6 années. Ma formation m'a permis de me former à différents types de techniques telles que l'ostéopathie structurelle, fonctionnelle, tissulaire.</p>
+            <h3><b>SENIOR</b></h3><br>
+           <ul>
+              <li><b>Douleurs articulaires et musculaires.</b></li>
+              <li><b>Arthrose,</b> difficulté de locomotion, maladies rhumatismales (traitement de confort).</li>
+              <li><b>Bilan préventif</b>.</li>
+            </ul>
           </div>
-          <div class="hidden-xs col-xs-12 col-md-7" id="adulte-photo">
+          <div class="hidden-xs col-xs-12 col-md-7" id="senior-photo">
           </div>
         </div>
       </div>
@@ -89,7 +137,7 @@
           <div class="col-xs-12 col-md-1"></div>
           <div class="col-xs-12 col-md-3" id="telephone">
             <p><i class="fas fa-phone" id="contact-icon"></i></p><br>
-            <p><b>NOUS CONTACTER</b></p>
+            <p><b>ME CONTACTER</b></p>
             <p>06 79 81 09 86</p><br>
             <p>Je réponds à vos appels de 9h à 20h  7 jours sur 7.</p><br><br>
             <a href="https://wa.me/33679810986" target="_blank"><i class="fab fa-whatsapp"></i> Ecrivez-moi sur WhatsApp</a>
@@ -117,6 +165,8 @@
         <a href="https://goo.gl/maps/DCtGfrRFgPH2" target="_blank"><i class="fas fa-map-marker-alt"></i></a>
         <a href="https://www.linkedin.com/in/louis-goffette-415492110" target="_blank"><i class="fab fa-linkedin"></i></a>
       </div>
-
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </body>
 </html>
