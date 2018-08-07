@@ -122,9 +122,9 @@ p {
 
 #title {
   margin-top: 65px;
-  font-size: 10vh;
+  font-size: 9vh;
   padding: 20px;
-  opacity: 0.7;
+  opacity: 0.9;
   z-index: 100;
   color: black;
 }
@@ -156,6 +156,7 @@ p {
   justify-content: center;
   padding: 15px 30px;
   padding-bottom: 30px;
+  line-height: 175%;
 }
 
 #apropos-photo {
@@ -294,7 +295,7 @@ p {
 .cabinet-banner {
   height: calc(100vh - 70px);
   margin-top: 70px;
-  background: url(images/cabinet-montherme.jpg);
+  background: url(images/cabinet2.png);
   background-size: cover;
   color: white;
   padding: 30px;
@@ -316,12 +317,14 @@ p {
 }
 
 .cabinet-banner p, .osteopathie-banner p {
-  width: 270px;
+  width: 310px;
   text-align: justify;
+  line-height: 180%;
 }
 
 .cabinet-banner h2, .osteopathie-banner h2 {
   font-size: 40px;
+  line-height: 180%;
 }
 
 .h2-title {
@@ -360,6 +363,7 @@ p {
 #infos-consultation {
   text-align: justify;
   padding: 30px;
+  line-height: 180%;
 }
 
 #adulte-photo {
@@ -407,11 +411,13 @@ p {
 .description-right ul {
   list-style-type: none;
   padding-left: 20px;
+  line-height: 180%;
 }
 
 .description-left ul {
   list-style-type: none;
   padding-left: 20px;
+  line-height: 180%;
 }
 
 .description-right p {
@@ -438,6 +444,7 @@ p {
   color: white;
   padding: 30px;
   padding-bottom: 60px;
+  line-height: 165%;
   position: relative;
 }
 
