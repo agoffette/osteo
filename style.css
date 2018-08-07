@@ -50,10 +50,16 @@ p {
   background: #26373E;
 }
 
+#docto-link {
+  padding: 3px 18px !important;
+  padding-top: 8px !important;
+}
+
 #menu {
   border: none;
   padding-left: 20px;
   font-size: 30px;
+  background: white;
 }
 
 #menu:focus, #menu:active {
@@ -235,8 +241,8 @@ p {
 }
 
 #telephone a:hover {
-  background: white;
-  color: #1ECF63;
+  background: #169749;
+  color: white;
 }
 
 #rdv-ligne a {
@@ -250,8 +256,8 @@ p {
 }
 
 #rdv-ligne a:hover {
-  background: white;
-  color: #00B3FF;
+  background: #0083BA;
+  color: white;
 }
 
 .footer-LG {
