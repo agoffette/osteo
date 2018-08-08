@@ -448,6 +448,16 @@ p {
   position: relative;
 }
 
+.tarifs a {
+  text-decoration: none;
+  color: white;
+}
+
+.tarifs a:hover {
+  color: #26373E;
+  text-decoration: none;
+}
+
 #info-icon {
   position: absolute;
   right: 70px;
