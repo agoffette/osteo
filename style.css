@@ -156,7 +156,7 @@ p {
   justify-content: center;
   padding: 15px 30px;
   padding-bottom: 30px;
-  line-height: 175%;
+  line-height: 145%;
 }
 
 #apropos-photo {
@@ -295,7 +295,7 @@ p {
 .cabinet-banner {
   height: calc(100vh - 70px);
   margin-top: 70px;
-  background: url(images/cabinet2.png);
+  background: url(images/cabinet2.jpg);
   background-size: cover;
   color: white;
   padding: 30px;
@@ -319,7 +319,7 @@ p {
 .cabinet-banner p, .osteopathie-banner p {
   width: 310px;
   text-align: justify;
-  line-height: 180%;
+  line-height: 160%;
 }
 
 .cabinet-banner h2, .osteopathie-banner h2 {
@@ -363,7 +363,7 @@ p {
 #infos-consultation {
   text-align: justify;
   padding: 30px;
-  line-height: 180%;
+  line-height: 155%;
 }
 
 #adulte-photo {
@@ -444,7 +444,7 @@ p {
   color: white;
   padding: 30px;
   padding-bottom: 60px;
-  line-height: 165%;
+  line-height: 155%;
   position: relative;
 }
 
