@@ -76,7 +76,7 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-image: url("http://www.pone.ch/wp-content/uploads/2016/11/IMG_5932.jpg"); background-size: cover; background-position: center center;
+  background-image: url("images/cabinet-home.jpg"); background-size: cover; background-position: center center;
 }
 
 .banner-filter {
@@ -295,13 +295,13 @@ p {
 .cabinet-banner {
   height: calc(100vh - 70px);
   margin-top: 70px;
-  background: url(images/cabinet3.jpg);
+  background: url(images/cabinet-banner.jpg);
   background-size: cover;
   color: white;
   padding: 30px;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: flex-start;
 }
 
 .osteopathie-banner {
